@@ -18,7 +18,7 @@ function Login(){
                 if (user == 'David' && pass == 'Maldonado'){
                     localStorage.setItem('trainer_current', user)
                     alert('Bienvenido' + user );
-                    navigate('/');
+                    navigate('/Dashboard');
                 }else {
                     alert('Usuario o contraseña incorrecta... Vuelve a intentarlo');
                 }
